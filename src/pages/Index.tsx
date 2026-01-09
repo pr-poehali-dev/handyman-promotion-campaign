@@ -217,7 +217,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold">Телефон</div>
-                    <div className="text-lg text-primary font-bold">+7 (999) 123-45-67</div>
+                    <div className="text-lg text-primary font-bold">+7 (900) 501-66-69</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -226,7 +226,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-lg">info@gruzmaster.ru</div>
+                    <div className="text-lg">savagefox12321@gmail.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -310,9 +310,9 @@ const Index = () => {
             <div>
               <h3 className="font-bold mb-4">Контакты</h3>
               <ul className="space-y-2 text-sm opacity-80">
-                <li>+7 (999) 123-45-67</li>
-                <li>info@gruzmaster.ru</li>
-                <li>Москва, ул. Примерная, 1</li>
+                <li>+7 (900) 501-66-69</li>
+                <li>savagefox12321@gmail.com</li>
+                <li>Вологда</li>
               </ul>
             </div>
             <div>
