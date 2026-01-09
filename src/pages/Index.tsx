@@ -318,15 +318,30 @@ const Index = () => {
             <div>
               <h3 className="font-bold mb-4">Мы в соцсетях</h3>
               <div className="flex gap-3">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
-                  <Icon name="MessageCircle" size={20} />
-                </div>
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
+                <a 
+                  href="https://vk.ru/mxmss01" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform"
+                >
+                  <Icon name="User" size={20} />
+                </a>
+                <a 
+                  href={`https://t.me/${'+79005016669'}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform"
+                >
                   <Icon name="Send" size={20} />
-                </div>
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
-                  <Icon name="Phone" size={20} />
-                </div>
+                </a>
+                <a 
+                  href={`https://wa.me/79005016669`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer hover:scale-110 transition-transform"
+                >
+                  <Icon name="MessageCircle" size={20} />
+                </a>
               </div>
             </div>
           </div>
